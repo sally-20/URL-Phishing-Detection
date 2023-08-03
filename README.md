@@ -19,14 +19,4 @@ Once the model is trained, it can be used to predict whether a given URL is a ph
 3. Run the code: Execute each code cell sequentially to preprocess the data, train the Random Forest model, and define the prediction function.
 4. Prediction: When prompted, enter the URL you want to check if it's phishing or legitimate. The model will then provide the prediction result.
 
-### Additional Considerations
-- Data Exploration: To gain insights into the dataset, consider adding data exploration and visualization before training the model.
-- Model Evaluation: Include other evaluation metrics besides accuracy, such as precision, recall, F1-score, and confusion matrix.
-- Hyperparameter Tuning: Explore hyperparameter tuning techniques to optimize the Random Forest model's performance.
-- Error Analysis: Perform an error analysis to understand why the model misclassifies certain URLs.
-- Visualization: Consider visualizing the decision tree(s) from the Random Forest model to help users understand the decision process.
-- Handling Edge Cases: Address potential edge cases in the preprocessing and prediction steps, such as handling invalid or empty URLs.
-- Handling URL Redirections: Handle URL redirections in the preprocessing step to extract the final destination domain from redirect URLs.
-- Deployment: If deploying the model in a real-world scenario, provide instructions on how to export the model for later use and integrate it into web applications or other systems.
-
 Thank you for using this Colab notebook for phishing website detection with Random Forest!
